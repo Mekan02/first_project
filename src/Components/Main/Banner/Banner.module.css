@@ -1,0 +1,141 @@
+.banner_main{
+    justify-content: space-between;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+h1{
+    font-size: 2vh;
+}
+
+.banner_item{
+    max-width: 300px;
+    height: 350px;
+    margin: 20px 0;
+}
+
+.second_item{
+    width: 430px;
+    height: 350px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img{
+    object-fit: cover;
+}
+
+
+/* ---------------- FIRST-LAST BANNER------------ */
+.first_main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 13px;
+}
+
+.first_main img {
+    height: 100%;
+    width: 100%;
+    border-radius: 13px;
+}
+
+.text {
+    top: 15px;
+    right: 15px;
+    position: absolute;
+    width: 160px;
+    text-align: center;
+}
+
+.text h1 {
+    text-align: end;
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+.link {
+    font-weight: 600;
+    /* position: absolute; */
+    top: 110px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.link a {
+    color: white;
+    text-decoration: underline;
+}
+
+.link i {
+    background-color: white;
+    padding: 5px;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+/* ----------- FIRST-LAST BANNER------------ */
+
+/* -------- CENTER BANNERS ------------- */
+.second_main{
+    height: 160px;
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+}
+/* .second_mainB{
+    margin-top: 30px;
+    height: 160px;
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+} */
+.second_main img{
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.textA{
+    width: 150px;
+    position: absolute;
+    top: 10px;  
+    right: 35px;
+}
+.textB{
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    left: 35px;
+}
+
+.second_main h2{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    font-weight: 700;
+    top: 5px;
+    margin-bottom: 10px;
+}
+
+.link a{
+    color: white;
+    text-decoration: underline;
+}
+
+.second_main i{
+    background-color: white;
+    padding: 5px;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+    
+
+/* -------- CENTER BANNERS ------------- */

@@ -1,0 +1,32 @@
+a{
+    display: block;
+    padding-bottom: 2px;
+}
+.item_active a{
+    color: green;
+    border-bottom: 2px solid green;
+}
+.nav{
+    display: flex;
+    padding: 10px 0px 0px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+@media (max-width: 1200px){
+    .nav{
+        display: none;
+    }
+}
+/* 
+a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition:  box-shadow .3s ease-in-out;
+  } */
+  /* a:hover {
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+  } */

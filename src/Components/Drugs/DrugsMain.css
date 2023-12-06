@@ -1,0 +1,73 @@
+/* --------- DEFAULTS ------------ */
+.drugsMain{
+    display: flex;
+    justify-content: space-between;
+}
+.drugs_slider{
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.main_products{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+/* --------- DEFAULTS ------------ */
+
+/* --------- CATEGORY ------------ */
+.category {
+    max-width: 280px;
+    font-family: inherit;
+    left: 0;
+}
+
+.category_btn .list_item:hover{
+    background-color: green;
+    color: white;
+}
+.list_item:hover{
+    cursor: pointer;
+}
+
+.category_text,
+.category_title {
+    background-color: #FFF;
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+
+.list{
+    margin-bottom: 40px;
+    font-size: small;
+    font-weight: 500;
+}
+
+.list_item {
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 8px 0 0 8px;
+    margin-bottom: 1px;
+
+}
+
+.checkbox{
+    outline: none;
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+}
+/* --------- CATEGORY ------------ */
+/* --------- CONTENT ------------ */
+.content{
+    max-width: 840px;
+    margin-left: 20px;
+}
+/* --------- CONTENT ------------ */

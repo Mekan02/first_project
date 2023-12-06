@@ -1,0 +1,89 @@
+.form_main {
+    width: 50vh;
+    margin: 0 auto 40px;
+    padding: 4vh 6vh;
+    background-color: white;
+    border-radius: 8px
+}
+
+.form__inner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
+.h1 {
+    font-family: serif;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.link {
+    color: blue;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline;
+}
+
+.text {
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.input {
+    width: 100%;
+    outline: none;
+    border: none;
+    margin-bottom: 25px;
+    border-bottom: 1px solid grey;
+    padding: 4px 3px;
+    font-size: 2vh;
+}
+
+.btn {
+    background-color: rgb(38, 149, 38);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 0;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.error {
+    color: #cc0033;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 5px 0 0;
+}
+.success {
+    color: green;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 5px 0 0;
+}
+/* --------SELECT OPTION--------- */ 
+select {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+option {
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+}
+
+option:hover {
+    background-color: #ccc;
+}
+/* --------SELECT OPTION--------- */ 

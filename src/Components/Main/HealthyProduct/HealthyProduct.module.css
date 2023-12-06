@@ -1,0 +1,25 @@
+.section__healthyProduct {
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: #FFFFFF;
+}
+.healthy_caption{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+/* .healthyP-title {
+    padding: 5px 5px;
+} */
+
+
+/* -------------------- */
+
+.healthyProduct{
+    width: 100%;
+}

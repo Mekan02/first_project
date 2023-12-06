@@ -1,0 +1,167 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.heart_i{
+    position: relative;
+}
+.heart_fill{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.fill{
+    fill: #FFFFFF;
+}
+
+/* --------------------- PRODUCT ----------------- */
+.healthyProduct {
+    padding: 5px;
+}
+.product-name{
+    overflow: hidden;
+    height: 25px;
+    margin: 3px 0;
+}
+.healthyProduct__inner {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.healthyProduct__inner:hover {
+    -webkit-box-shadow: 0px 2px 5px 1px rgba(138, 138, 138, 0.4);
+    -moz-box-shadow: 0px 2px 5px 1px rgba(138, 138, 138, 0.4);
+    box-shadow: 0px 2px 5px 1px rgba(138, 138, 138, 0.4);
+    cursor: pointer;
+}
+
+@media (min-width: 0px) {
+    .healthyProduct {
+        width: 100%;
+        flex-basis: 100%;
+    }
+}
+
+@media (min-width: 490px) {
+    .healthyProduct {
+        width: 50%;
+        flex-basis: 50%;
+    }
+}
+
+@media (min-width: 670px) {
+    .healthyProduct {
+        width: 33.33%;
+        flex-basis: 33.33%;
+    }
+}
+
+@media (min-width: 870px) {
+    .healthyProduct {
+        width: 25%;
+        flex-basis: 25%;
+    }
+}
+
+@media (min-width: 1060px) {
+    .healthyProduct {
+        width: 20%;
+        flex-basis: 20%;
+    }
+}
+
+.product-img {
+    position: relative;
+}
+
+.product-img img {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.product-favorite {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 8px 8px 5px;
+    border-radius: 50%;
+    border: none;
+    background-color: green;
+    cursor: pointer;
+}
+
+.product-favorite i {
+    color: white;
+    font-size: large;
+}
+
+.product-desc {
+    font-size: smaller;
+    opacity: .5;
+    margin-bottom: 10px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.product-price {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.healthyProduct-rate {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+
+.star {
+    width: 15px;
+    height: 15px;
+    font-size: small;
+}
+
+.star-bal {
+    font-size: 10px;
+    margin-left: 3px;
+}
+
+.btn-buy {
+    justify-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    border: none;
+    border-radius: 3px;
+    padding: 3px;
+    color: #FFFFFF;
+}
+
+.btn-buy img {
+    width: 15px;
+}
+
+.btn-buy span {
+    background-color: green;
+    font-size: 11px;
+    margin-left: 4px;
+}
+
+/* --------------------- PRODUCT ----------------- */

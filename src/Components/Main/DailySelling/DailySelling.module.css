@@ -1,0 +1,23 @@
+.section__dailySelling{
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: #FFFFFF;
+}
+
+/* ----- CAPTION ------ */
+.dailySelling__caption{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+/* ----- CAPTION ------ */
+/* ------- PRODUCTS ------ */
+.dailySelling__products{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* ------- PRODUCTS ------ */
